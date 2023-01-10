@@ -9,13 +9,18 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
 
 .navbar {
     padding-bottom: 4.5rem;
-
 }
 
 .navbar-brand {
@@ -47,3 +52,20 @@ h1 {
     color: #fff;
 }
 
+.featuresBox {
+    padding: 5%;
+}
+
+.featuresIcon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.featuresIcon:hover {
+    color: #ff4c68;
+}
+
+
+.featuresText {
+    color: #8f8f8f;
+}
