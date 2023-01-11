@@ -67,7 +67,7 @@
 
   <section id="features">
     <div class="container-fluid">
-      <div class="row text-center">
+      <div class="row">
         <div class="col-lg-4 featuresBox">
           <i class="fa-solid fa-circle-check fa-4x featuresIcon"></i>
           <h3>Easy to use.</h3>
@@ -91,26 +91,47 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+    <div class="container-fluid">
+      <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="2000" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active ciPadded">
+            <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="rounded-circle mx-auto d-block w-10" src="images/dog-img.jpg" alt="dog-profile">
+            <h5>Pebbles, New York</h5>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="rounded-circle mx-auto d-block w-10" src="images/lady-img.jpg" alt="lady-profile">
+            <h5>Beverly, Illinois</h5>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
-
+    <div class="container-fluid">
+        <img class="pressLogo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="pressLogo" src="images/tnw.png" alt="tnw-logo">
+        <img class="pressLogo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <img class="pressLogo" src="images/mashable.png" alt="mashable-logo">
+      </div>
   </section>
 
 

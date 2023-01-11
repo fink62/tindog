@@ -9,16 +9,26 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-
+    font-weight: 900;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
+
+/** Navbar **/
 .navbar {
     padding-bottom: 4.5rem;
 }
@@ -38,6 +48,15 @@ h3 {
     font-weight: 300;
 }
 
+/** Title Section **/
+
+#title {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
 .downloadButton {
     margin: 5% 3% 5% 0;
 }
@@ -47,9 +66,11 @@ h3 {
     transform: rotate(25deg)
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+/** Features section **/
+
+#features {
+    padding: 5% 15%;
+    text-align: center;
 }
 
 .featuresBox {
@@ -65,7 +86,34 @@ h3 {
     color: #ff4c68;
 }
 
-
 .featuresText {
     color: #8f8f8f;
 }
+
+/** Testimonial section **/
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.ciPadded {
+    padding: 5% 15%;
+}
+
+/** Press section **/
+
+#press {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 3%
+}
+
+.pressLogo {
+    width: 20%;
+    margin: 20px 20px 50px
+}
+
