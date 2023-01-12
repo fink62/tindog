@@ -109,7 +109,6 @@ h5 {
     text-align: center;
     background-color: #ff4c68;
     color: #fff;
-    padding-bottom: 3%
 }
 
 .pressLogo {
@@ -117,3 +116,14 @@ h5 {
     margin: 20px 20px 50px
 }
 
+/** Pricing section **/
+
+#pricing {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.pricingColumn {
+    padding: 3% 2%;
+}
+    
