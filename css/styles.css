@@ -19,6 +19,8 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+    line-height: 1.5;
+
 }
 
 h5 {
@@ -52,7 +54,6 @@ h5 {
 
 #title {
     padding: 3% 15% 0;
-    text-align: center;
     background-color: #ff4c68;
     color: #fff;
 }
@@ -65,6 +66,18 @@ h5 {
     width: 60%;
     transform: rotate(25deg);
     position: relative;
+}
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+    
+    .titleImage {
+        transform: rotate(0);
+        position: static;
+    }
+    
 }
 
 /** Features section **/
@@ -129,4 +142,26 @@ h5 {
 .pricingColumn {
     padding: 3% 2%;
 }
-    
+
+/** CTA section **/
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/** Footer section **/
+
+#footer {
+    font-size:small;
+    color: #8f8f8f;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.socialMediaIcon {
+    color:black;
+    padding: 10px 10px;
+}
