@@ -1,34 +1,50 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
 }
 
-h1 {
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/** Headings **/
+
+.bigHeading {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
+.sectionHeading {
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    line-height: 1.5;
+/** Text styles **/
 
+
+.greyText {
+    color: #8f8f8f;
 }
 
-h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    margin-top: 20px;
+/** Containers **/
+.container-fluid {
+    padding: 7% 15%;
 }
 
+/** Sections **/
+.coloredSection {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.whiteSection {
+    background-color: #fff;
+    color:black;
+}
 
 /** Navbar **/
 .navbar {
@@ -52,10 +68,9 @@ h5 {
 
 /** Title Section **/
 
-#title {
-    padding: 3% 15% 0;
-    background-color: #ff4c68;
-    color: #fff;
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
 }
 
 .downloadButton {
@@ -77,20 +92,21 @@ h5 {
         transform: rotate(0);
         position: static;
     }
-    
 }
 
 /** Features section **/
 
 #features {
-    padding: 5% 15%;
-    text-align: center;
-    background-color: #fff;
     position: relative ;
 }
 
 .featuresBox {
     padding: 5%;
+}
+
+.featureTitle {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 .featuresIcon {
@@ -102,29 +118,28 @@ h5 {
     color: #ff4c68;
 }
 
-.featuresText {
-    color: #8f8f8f;
-}
 
-/** Testimonial section **/
-
+/** Testimonials section **/
 #testimonials {
-    text-align: center;
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #ef8172;
 }
 
-.ciPadded {
-    padding: 5% 15%;
+.testimonialText {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonialName {
+    margin-top: 20px;
+}
+
+.ciAbove {
+    position: static;
 }
 
 /** Press section **/
-
 #press {
-    padding: 5% 15%;
-    text-align: center;
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #ef8172;
 }
 
 .pressLogo {
@@ -134,34 +149,18 @@ h5 {
 
 /** Pricing section **/
 
-#pricing {
-    padding: 5% 15%;
-    text-align: center;
-}
-
 .pricingColumn {
     padding: 3% 2%;
 }
 
 /** CTA section **/
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-    padding: 7% 15%;
-}
-
 /** Footer section **/
 
 #footer {
     font-size:small;
-    color: #8f8f8f;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 .socialMediaIcon {
-    color:black;
     padding: 10px 10px;
 }
